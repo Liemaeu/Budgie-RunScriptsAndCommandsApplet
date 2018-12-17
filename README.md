@@ -20,7 +20,7 @@ First you have to define a new function like this:
 
 def functionname(self, menuitem):
 
-        print(menuitem)
+print(menuitem)
         
 subprocess.call("command", Shell=True)
 
