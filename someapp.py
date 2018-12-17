@@ -32,21 +32,20 @@ class SomeAppApplet(Budgie.Applet):
         self.box.show_all()
         self.show_all()
 
-    def scale100(self, menuitem):
+    def funct1(self, menuitem):
         print(menuitem)
-        subprocess.Popen(["scale100.sh"])
+        subprocess.call("nautilus", Shell=True)
 
-    def scale90(self, menuitem):
+    def funct2(self, menuitem):
         print(menuitem)
-        subprocess.Popen(["scale90.sh"])
+        subprocess.call("sh /path/to/your/script.sh", Shell=True)
 
     def create_menu(self):
-        item1 = Gtk.MenuItem('100%')
-        item1.connect("activate", self.scale100)
-        item2 = Gtk.MenuItem('90%')
-        item2.connect("activate", self.scale90)
-        item3 = Gtk.MenuItem('Test')
-        for item in [item1, item2, item3]:
+        item1 = Gtk.MenuItem('Nautilus')
+        item1.connect("activate", self.funct1)
+        item2 = Gtk.MenuItem('Your script')
+        item2.connect("activate", self.funct2)
+        for item in [item1, item2]:
             self.menu.append(item)
         self.menu.show_all()
         self.box.connect("button-press-event", self.popup_menu)
