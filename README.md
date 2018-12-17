@@ -6,15 +6,15 @@ It is based on: https://github.com/phil-hur/budgietestapplet
 
 Installation:
 
-git clone https://github.com/Liemaeu/Budgie-RunScriptsAndCommandsApplet.git
+        git clone https://github.com/Liemaeu/Budgie-RunScriptsAndCommandsApplet.git
 
-sudo mv Budgie-RunScriptsAndCommandsApplet /usr/lib/budgie-desktop/plugins/
+        sudo mv Budgie-RunScriptsAndCommandsApplet /usr/lib/budgie-desktop/plugins/
 
-You need to logout and login again
+        You need to logout and login again
 
 To add a command/a script:
 
-sudo nano /usr/lib/budgie-desktop/plugins/Budgie-RunScriptsAndCommandsApplet/someapp.py
+        sudo nano /usr/lib/budgie-desktop/plugins/Budgie-RunScriptsAndCommandsApplet/someapp.py
 
 First you have to define a new function like this:
 
@@ -42,4 +42,4 @@ The last step is to change this part of the create_menu function
 
 In the [ ]  you have to write the names of all your items in, seperated by an ,
 
-You have to logout and login again to make your changes work 
+        You have to logout and login again to make your changes work 
