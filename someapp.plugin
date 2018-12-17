@@ -1,9 +1,9 @@
 [Plugin]
 Loader=python3
 Module=someapp
-Name=Some App
-Description=Obviously an App
-Authors=James Bond
-Copyright=Copyright © 2018 007
+Name=RunScriptsAndCommand
+Description=Applet to run scripts and commands
+Authors=Unknown
+Copyright=Copyright © 2018
 Website=some_website
-Icon=firefox
+Icon=xterm-color
