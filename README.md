@@ -3,6 +3,8 @@ An applet for the Budgie Desktop to run scripts and commands
 
 It is based on: https://github.com/phil-hur/budgietestapplet
 
+Thanks a lot to Phil Hur
+
 
 Installation:
 
