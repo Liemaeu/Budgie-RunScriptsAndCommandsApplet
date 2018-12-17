@@ -32,7 +32,7 @@ After that, you have to create a new item in the create_menu function, like this
 
         itemname.connect("activate", self.functionname)
 
-change the itemname in whatever you want, functionname must be the name of the function you defined earlier.
+change itemname and name in whatever you want, functionname must be the name of the function you defined earlier.
 
 The last step is to change this part of the create_menu function
 
