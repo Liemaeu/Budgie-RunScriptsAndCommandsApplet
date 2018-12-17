@@ -1,5 +1,7 @@
 # Budgie-RunScriptsAndCommandsApplet
-An applet for the Budgie Desktop to run scripts and commands 
+An applet for the Budgie Desktop to run scripts and commands
+
+It is based on: https://github.com/phil-hur/budgietestapplet
 
 
 Installation:
