@@ -38,7 +38,7 @@ class RunScriptsAndCommandsApplet(Budgie.Applet):
 
     def funct2(self, menuitem):
         print(menuitem)
-        subprocess.call("sh /path/to/your/script.sh", shell=True)
+        subprocess.call("sh /path/to/your/script.sh", Shell=True)
 
     def create_menu(self):
         item1 = Gtk.MenuItem('Nautilus')
