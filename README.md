@@ -24,7 +24,7 @@ First you have to define a new function like this:
         
         subprocess.call("command", Shell=True)
 
-change functionname and command in what ever you want.
+change functionname and command in what ever you want (for a script the command is: sh /path/to/the/script.sh).
 
 After that, you have to create a new item in the create_menu function, like this:
 
