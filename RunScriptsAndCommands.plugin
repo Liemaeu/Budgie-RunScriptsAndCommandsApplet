@@ -1,9 +1,0 @@
-[Plugin]
-Loader=python3
-Module=RunScriptsAndCommands
-Name=RunScriptsAndCommands
-Description=To run scripts and commands
-Authors=Unknown
-Copyright=No copyright
-Website=no webiste
-Icon=xterm-color
