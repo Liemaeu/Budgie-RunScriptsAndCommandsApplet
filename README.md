@@ -28,11 +28,11 @@ change functionname and command in what ever you want (for a script the command 
 
 After that, you have to create a new item in the create_menu function, like this:
 
-        item1 = Gtk.MenuItem('name')
+        itemname = Gtk.MenuItem('name')
 
-        item1.connect("activate", self.functionname)
+        itemname.connect("activate", self.functionname)
 
-change name in whatever you want, functionname must be the name of the function you defined earlier.
+change the itemname in whatever you want, functionname must be the name of the function you defined earlier.
 
 The last step is to change this part of the create_menu function
 
