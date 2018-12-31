@@ -25,7 +25,7 @@ class SomeAppApplet(Budgie.Applet):
 
         self.box = Gtk.EventBox()
         self.add(self.box)
-        img = Gtk.Image.new_from_icon_name("firefox", Gtk.IconSize.MENU)
+        img = Gtk.Image.new_from_icon_name("xterm-color", Gtk.IconSize.MENU)
         self.box.add(img)
         self.menu = Gtk.Menu()
         self.create_menu()
