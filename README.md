@@ -10,7 +10,7 @@ Installation:
 
         git clone https://github.com/Liemaeu/Budgie-RunScriptsAndCommandsApplet.git
 
-        sudo mv Budgie-RunScriptsAndCommandsApplet* /usr/lib/budgie-desktop/plugins/RunScriptsAndCommandsApplet
+        sudo mv Budgie-RunScriptsAndCommandsApplet* /usr/lib/budgie-desktop/plugins/Budgie-RunScriptsAndCommandsApplet
 
         You need to logout and login again
 
